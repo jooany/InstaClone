@@ -15,7 +15,7 @@ public class HelloController {
 	@ResponseBody
 	public Map<String, String> apiJson() { 
 		final Map<String, String> map = new HashMap<>(); 
-		map.put("message", "Welcome!");
+		map.put("message", "Welcomes");
 		return map; 	
 	}
 }
