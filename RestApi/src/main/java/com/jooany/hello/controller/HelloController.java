@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-//@CrossOrigin(origins="http://18.217.255.224:8001")
+@CrossOrigin(origins="*")
 @RestController
 public class HelloController {
 	@GetMapping("/hello")
